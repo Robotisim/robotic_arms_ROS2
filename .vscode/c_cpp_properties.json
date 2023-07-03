@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/luqman/robotisim_ws/install/turtlebot3_gazebo/include/**",
+        "/home/luqman/robotisim_ws/install/turtlebot3_fake_node/include/**",
+        "/home/luqman/robotisim_ws/install/sjtu_drone_description/include/**",
+        "/home/luqman/ros2_ws/install/turtlebot3_gazebo/include/**",
+        "/home/luqman/ros2_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/luqman/robotisim_ws/src/drive_tb3/include/**",
+        "/home/luqman/robotisim_ws/src/drive_turltesim/include/**",
+        "/home/luqman/robotisim_ws/src/point_cloud_processing/include/**",
+        "/home/luqman/robotisim_ws/src/robotic_arms_ROS2/RoboND-Kinematics-Project/gazebo_grasp_plugin/include/**",
+        "/home/luqman/robotisim_ws/src/robotic_arms_ROS2/RoboND-Kinematics-Project/kuka_arm/include/**",
+        "/home/luqman/robotisim_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

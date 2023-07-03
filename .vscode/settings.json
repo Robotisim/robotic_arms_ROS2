@@ -1,0 +1,31 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/luqman/robotisim_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/test_py/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/solve_py/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/rover/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/prius_line_following/lib/python3.10/site-packages",
+        "/home/luqman/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/luqman/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/luqman/robotisim_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/test_py/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/solve_py/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/sjtu_drone_bringup/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/rover/lib/python3.10/site-packages",
+        "/home/luqman/robotisim_ws/install/prius_line_following/lib/python3.10/site-packages",
+        "/home/luqman/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages",
+        "/home/luqman/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "files.associations": {
+        "chrono": "cpp"
+    }
+}
