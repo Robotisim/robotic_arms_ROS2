@@ -9,6 +9,9 @@ def generate_launch_description():
     # Path to Robot's Xacro File
     pkg_path= get_package_share_directory("kuka_arm_pkg")
     xacro_file= os.path.join(pkg_path,'urdf','kr210.urdf.xacro')
+    rviz_config = os.path.join(
+        get_package_share_directory("kuka_arm_pkg"), "config" ,"kuka_arm.rviz"
+    )
 
     #Processing Xacro File
     xacro_parser=xacro.parse(open(xacro_file))
@@ -36,6 +39,7 @@ def generate_launch_description():
         executable="rviz2",
         name="rviz2",
         output="log",
+        arguments=["-d", rviz_config],
     )
 
     #Running all definations
