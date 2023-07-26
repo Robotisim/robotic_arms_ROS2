@@ -14,7 +14,7 @@ def generate_launch_description():
     # Moveit action server
     move_group_node = Node(
         package="kuka_arm_pkg",
-        executable="moveit_drive",
+        executable="p1_b_moveit_drive",
         output="screen",
         parameters=[moveit_config_node.to_dict()],
     )

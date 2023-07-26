@@ -25,16 +25,16 @@ graph_msgs
 
 
 
-add_executable(jtc_node src/joint_trajectory_controller.cpp)
-ament_target_dependencies(jtc_node rclcpp trajectory_msgs)
+add_executable(p1_a_jtc_node src/p1_a_joint_trajectory_controller.cpp)
+ament_target_dependencies(p1_a_jtc_node rclcpp trajectory_msgs)
 
-add_executable(moveit_drive src/motion_drive_moveit.cpp)
-ament_target_dependencies(moveit_drive ${Moveit_includes})
+add_executable(p1_b_moveit_drive src/p1_b_motion_drive_moveit.cpp)
+ament_target_dependencies(p1_b_moveit_drive ${Moveit_includes})
 
 
 
 install(TARGETS
-  jtc_node moveit_drive
+  p1_a_jtc_node p1_b_moveit_drive
   DESTINATION lib/${PROJECT_NAME})
 
 
